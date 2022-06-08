@@ -9,4 +9,4 @@ Gama pode ser caracterizada como a fluidez entre o preto e o branco na tela. A g
 Como Está Implementado no código
 
 O código pega todos os pixels da imagem em um array e eleva eles pelo valor da gama selecionado, no exemplo está como 0.1, usando a fórmula: brilho = (sinal) ** gamma
-no código temos a variável c que é responsável por identificar todos os pixels da imagem e temos o código de saída, onde ele multiplica a variável c por 255 e aplica a fórmula do brilho do gamma, definindo o tipo da variável como uint8 que varia entre 0 e 255, por isso as multiplicações por esse número.
+no código temos a variável c, que é responsável por identificar todos os pixels da imagem e temos o código de saída, onde ele multiplica a variável c por 255 e aplica a fórmula do brilho do gamma, definindo o tipo da variável como uint8 que varia entre 0 e 255, por isso as multiplicações por esse número.
